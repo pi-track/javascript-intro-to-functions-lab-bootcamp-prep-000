@@ -13,7 +13,7 @@ function logShout(string){
 function logWhisper(string){
   console.log(whisper(string))
 }
-
+/*
 function sayHiToGrandma(string){
   if (string === "I love you, Grandma."){
     return "I love you, too."
@@ -24,7 +24,8 @@ function sayHiToGrandma(string){
   elseif (shout(string) === string) {
     return "YES INDEED!"
   }
-}
+}*/
+
 /*
 describe('logWhisper(string)', function() {
   it('calls console.log() its one argument in all lowercase', function() {
