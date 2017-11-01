@@ -10,6 +10,21 @@ function logShout(string){
   console.log(shout(string))
 }
 
+function logWhisper(string){
+  console.log(whisper(string))
+}
+
+function sayHiToGrandma(string){
+  if string === "I love you, Grandma."{
+    return "I love you, too."
+  }
+  elseif (whisper(string) === string) {
+    return "I can't hear you!"
+  }
+  elseif (shout(string) === string) {
+    return "YES INDEED!"
+  }
+}
 /*
 describe('logWhisper(string)', function() {
   it('calls console.log() its one argument in all lowercase', function() {
